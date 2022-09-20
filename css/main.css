@@ -220,13 +220,15 @@ body header h2{
 }
 
 .horarios {
-    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 2fr;
-    margin-top: 0.4fr;
-    margin: 10%;
+    background-color: #7882A4;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 0%;
+    text-align: center;
+    text-transform: initial;
 }
 
 .formulario{
@@ -234,16 +236,37 @@ body header h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 0rem;
+    background-color: #7882A4;
 }
 
 
 /*mapa*/
 
-.mapa-contacto{
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #7882A4;
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+    
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
 }
