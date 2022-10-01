@@ -1,2 +1,27 @@
 /* estilos de footer */
 
+.footer-index{
+    text-align: center;
+    margin-top: 1rem;
+    background-color: #fcdab8;
+    h3{
+    color: #7882A4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    }
+    div .img-footer{
+        height: 40px;
+        width: 40px;
+        margin: 5px;
+        animation-name: animacion-footer;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+    }
+    p{
+        margin-top: 10px;
+        font-weight: bold;
+        color: #7882A4;
+    }
+}
