@@ -7,21 +7,3 @@
     }
 }
 
-.tarjetas-procesos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .card{
-        margin: 15px;
-        h5{
-            text-align: center;
-        }
-        p{
-            display: none;
-        }
-    }
-    img{
-        width: auto;
-        height: auto;
-    }
-}

@@ -207,21 +207,7 @@ body {
   padding: 1rem;
   padding: 1rem; }
 
-.tarjetas-procesos {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .tarjetas-procesos .card {
-    margin: 15px; }
-    .tarjetas-procesos .card h5 {
-      text-align: center; }
-    .tarjetas-procesos .card p {
-      display: none; }
-  .tarjetas-procesos img {
-    width: auto;
-    height: auto; }
-
-/* Estilos Productos */
+/* Estilos Productos y Procesos */
 .main-productos h3 {
   font-size: 40px;
   text-align: center;
@@ -233,11 +219,21 @@ body {
   margin: 25px; }
 
 .main-productos .col {
-  padding: 20px; }
+  padding: 30px; }
 
 .main-productos .card {
   padding: 5px; }
   .main-productos .card h5 {
     text-align: center; }
   .main-productos .card p {
+    display: none; }
+
+.tarjetas-procesos .col {
+  padding: 30px; }
+
+.tarjetas-procesos .card {
+  padding: 5px; }
+  .tarjetas-procesos .card h5 {
+    text-align: center; }
+  .tarjetas-procesos .card p {
     display: none; }

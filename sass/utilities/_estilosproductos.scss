@@ -1,6 +1,6 @@
-/* Estilos Productos */
+/* Estilos Productos y Procesos */
 
-.main-productos{
+.main-productos {
     h3{
         font-size: 40px;
         text-align: center;
@@ -12,7 +12,24 @@
         margin: 25px;
     }
     .col{
-        padding: 20px;
+        padding: 30px;
+    }
+    .card{
+        padding: 5px;
+        h5{
+            text-align: center;
+            
+        }
+        p{
+            display: none;
+        }
+    }
+}
+
+
+.tarjetas-procesos{
+    .col{
+        padding: 30px;
     }
     .card{
         padding: 5px;
@@ -23,4 +40,4 @@
             display: none;
         }
     }
-}
+    }
