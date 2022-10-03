@@ -81,7 +81,7 @@
     }
 }
 
-/*text de cards te procesos*/
+/*text de cards te procesos y productos*/
 
 @media screen and (min-width:1100px){
 .body-contacto{
@@ -93,7 +93,16 @@
         }
     }
 }
+.main-productos{
+    .card{
+        .card-text{
+            display: block;
+            color: black;
+        }
+    }
 }
+}
+
 
 
 /* animaciones */

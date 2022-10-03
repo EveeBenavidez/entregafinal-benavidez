@@ -73,10 +73,11 @@ body {
   background-color: #EFEFEF; }
   .body-contacto .main-contacto {
     text-align: center;
-    background-color: #7882A4;
     margin-top: 1rem;
     font-size: 20px;
     margin: 3%; }
+    .body-contacto .main-contacto p {
+      margin: 2rem; }
     .body-contacto .main-contacto .horarios {
       display: flex;
       flex-direction: column;
@@ -143,10 +144,13 @@ body {
     display: inline-block;
     margin-top: -3.6rem; } }
 
-/*text de cards te procesos*/
+/*text de cards te procesos y productos*/
 @media screen and (min-width: 1100px) {
   .body-contacto .tarjetas-procesos div p {
-    display: block; } }
+    display: block; }
+  .main-productos .card .card-text {
+    display: block;
+    color: black; } }
 
 /* animaciones */
 @keyframes animacion-footer {
@@ -209,8 +213,31 @@ body {
   align-items: center; }
   .tarjetas-procesos .card {
     margin: 15px; }
+    .tarjetas-procesos .card h5 {
+      text-align: center; }
     .tarjetas-procesos .card p {
       display: none; }
   .tarjetas-procesos img {
     width: auto;
     height: auto; }
+
+/* Estilos Productos */
+.main-productos h3 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold; }
+
+.main-productos .p-productos {
+  color: #7882A4;
+  font-size: 20px;
+  margin: 25px; }
+
+.main-productos .col {
+  padding: 20px; }
+
+.main-productos .card {
+  padding: 5px; }
+  .main-productos .card h5 {
+    text-align: center; }
+  .main-productos .card p {
+    display: none; }

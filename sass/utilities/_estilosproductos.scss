@@ -1,0 +1,26 @@
+/* Estilos Productos */
+
+.main-productos{
+    h3{
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .p-productos{
+        color: #7882A4;
+        font-size: 20px;
+        margin: 25px;
+    }
+    .col{
+        padding: 20px;
+    }
+    .card{
+        padding: 5px;
+        h5{
+            text-align: center;
+        }
+        p{
+            display: none;
+        }
+    }
+}

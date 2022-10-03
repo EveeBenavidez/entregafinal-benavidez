@@ -2,11 +2,13 @@
 .body-contacto{
     background-color: #EFEFEF;
     .main-contacto{
-        text-align: center;
-    background-color: #7882A4;
+    text-align: center;
     margin-top: 1rem;
     font-size: 20px;
     margin: 3%;
+    p{
+        margin: 2rem;
+    }
     .horarios{
         display: flex;
         flex-direction: column;
