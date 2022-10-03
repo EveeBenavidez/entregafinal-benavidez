@@ -59,17 +59,42 @@
         .section-index div img{
         width: 60%;
         }
+    
 }
 
+
+
+
+
 /*logos solo en pantalla mas grande*/
+
 @media screen and (min-width:1100px){
-    .body-contacto {
-        .header-index .div-header img{
-        display: inline-block;
-        margin-top: -3.6rem;
+.body-contacto{
+        .header-index{
+            .div-header{
+                img{
+                    display: inline-block;
+                    margin-top: -3.6rem;
+                }
+            }
+        }
+    }
+}
+
+/*text de cards te procesos*/
+
+@media screen and (min-width:1100px){
+.body-contacto{
+    .tarjetas-procesos{
+        div{
+            p{
+                display: block;
+            }
+        }
     }
 }
 }
+
 
 /* animaciones */
 

@@ -4,12 +4,13 @@
 @import "utilities/listas";
 @import "utilities/mixin";
 @import "utilities/extend";
-@import "utilities/mediaq";
 @import "utilities/reset";
 @import "utilities/estilosheader";
 @import "utilities/estilosmain";
 @import "utilities/estilosfooter";
 @import "utilities/estiloscontacto";
-
+@import "secundarias/mediaqueries";
+@import "utilities/estilosempresa"; 
+@import "utilities/estilosprocesos";
 
 
