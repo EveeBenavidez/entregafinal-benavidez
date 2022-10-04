@@ -1,6 +1,6 @@
 /* estilos contacto */
 .body-contacto{
-    background-color: #EFEFEF;
+    background-color: $color-segundo;
     .main-contacto{
     text-align: center;
     margin-top: 1rem;
@@ -10,9 +10,7 @@
         margin: 2rem;
     }
     .horarios{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        @extend %flex;
         margin-top: 5%;
         margin-left: 20%;
         margin-right: 20%;
@@ -22,9 +20,7 @@
     }
     section{
     .formulario{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+        @extend %flex;
     align-items: center;
     margin-top: 0rem;
     }

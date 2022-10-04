@@ -12,29 +12,26 @@ body{
     font-family: 'Arimo', sans-serif; 
 }
 .body-contacto{
-    background-color: #EFEFEF;
+    background-color: $color-segundo;
 }
 
 
 /* estilos header */
+
 
 .header-index{
     display: flex;
     justify-content: end;
     margin-top: 1rem;
     h1{
-        color: #7882A4;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        @extend %flex;
+        color: $color-primero;
         margin-right: 2rem;
         margin-left: 2rem;
     }
     h2{
-        color: #7882A4;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        @extend %flex;
+        color: $color-primero;
         margin-right: 2rem;
     }
     .div-header img{

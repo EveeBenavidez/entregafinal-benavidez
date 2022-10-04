@@ -3,13 +3,10 @@
 .footer-index{
     text-align: center;
     margin-top: 1rem;
-    background-color: #fcdab8;
+    background-color: $color-tercero;
     h3{
-    color: #7882A4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+        @extend %flex;
+        color: $color-primero;
     }
     div .img-footer{
         height: 40px;
@@ -21,7 +18,7 @@
     }
     p{
         margin-top: 10px;
-        font-weight: bold;
-        color: #7882A4;
+        @include texto;
+        color: $color-primero;
     }
 }
