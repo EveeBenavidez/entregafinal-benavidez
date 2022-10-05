@@ -34,8 +34,9 @@ body {
 .main-index {
   margin-top: 1rem; }
   .main-index .div-index-lorem {
+    color: #7882A4;
     text-align: center;
-    margin-top: 2rem; }
+    font-weight: bold; }
 
 .section-index {
   display: none; }

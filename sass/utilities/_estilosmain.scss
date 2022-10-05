@@ -2,9 +2,9 @@
 
 .main-index{
     margin-top: 1rem;
-    .div-index-lorem{
-        text-align: center;
-        margin-top: 2rem;
+    .div-index-lorem {
+        color: $color-primero;
+        @include texto;
     }
 }
 
