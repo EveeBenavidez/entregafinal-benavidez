@@ -5,6 +5,7 @@
     .div-index-lorem {
         color: $color-primero;
         @include texto;
+        margin-top: 1rem;
     }
 }
 

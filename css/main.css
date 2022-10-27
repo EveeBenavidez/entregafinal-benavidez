@@ -36,7 +36,8 @@ body {
   .main-index .div-index-lorem {
     color: #7882A4;
     text-align: center;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-top: 1rem; }
 
 .section-index {
   display: none; }
@@ -73,14 +74,29 @@ body {
       margin: 2rem; }
     .body-contacto .main-contacto .horarios {
       margin-top: 5%;
-      margin-left: 20%;
-      margin-right: 20%;
       margin-bottom: 10%;
       text-align: center;
       text-transform: initial; }
+      .body-contacto .main-contacto .horarios td {
+        margin: 10px;
+        padding: 10px; }
     .body-contacto .main-contacto section .formulario {
       align-items: center;
       margin-top: 0rem; }
+      .body-contacto .main-contacto section .formulario div {
+        padding: 10px;
+        margin: 5px; }
+    .body-contacto .main-contacto .map-responsive {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0; }
+      .body-contacto .main-contacto .map-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute; }
 
 /* media queries */
 @media screen and (min-width: 800px) {
@@ -125,8 +141,8 @@ body {
   .section-index div img {
     width: 60%; } }
 
-/*logos solo en pantalla mas grande*/
-@media screen and (min-width: 1100px) {
+/*logos solo en pantalla tablet*/
+@media screen and (min-width: 1000px) {
   .body-contacto .header-index .div-header img {
     display: inline-block;
     margin-top: -3.6rem; } }

@@ -12,20 +12,41 @@
     .horarios{
         @extend %flex;
         margin-top: 5%;
-        margin-left: 20%;
-        margin-right: 20%;
         margin-bottom: 10%;
         text-align: center;
         text-transform: initial;
+        td{
+            margin: 10px;
+            padding: 10px;
+        }
     }
     section{
     .formulario{
         @extend %flex;
     align-items: center;
     margin-top: 0rem;
+    div{
+        padding: 10px;
+        margin: 5px;
+        
     }
     }
     }
-}
+    .map-responsive{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        iframe{
+            left:0;
+            top:0;
+            height:100%;
+            width:100%;
+            position:absolute;
+        }
+        }
+    }
+    }
+
 
 
